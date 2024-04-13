@@ -1166,8 +1166,8 @@ body {
 }
 
 .container_firstaid{
-    width: 85%;
-    margin-left: 150px;
+    width: 72%;
+    margin: auto;
 }
 .firstaid-gallery .firstaid p{
     color: #fff;
