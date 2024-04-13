@@ -60,22 +60,33 @@
                     <h2>Always Stay Prepared</h2>
                     <p>Preparation is the key to safety; being ready for disaster beats the alternative every time.</p>
                     <button id="scroll-btn">SCROLL DOWN</button>
+                    <script>
+                        document.getElementById('scroll-btn').addEventListener('click', function() {
+                            window.scrollTo({
+                                top: document.documentElement.clientHeight,
+                                behavior: 'smooth'
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>
     </div>
+    <div class="backgroundimg">
     <div class="safetypage">
         <div class="safetytitle">
-            <h1>Safety And Tips</h1>
-            <p style="color: #111;">"Being prepared ensures that you are ready to face life's uncertainties with resilience and confidence. It's about safeguarding yourself and those around you, turning potential crises into manageable situations. Preparedness empowers you to navigate through adversity with clarity and efficiency, minimizing risks and maximizing safety. Ultimately, it's the proactive choice to secure your present and safeguard your future."</p>
+            <h1 style="color: #fff;">Safety And Tips</h1>
+            <p style="color: #fff;">"Being prepared ensures that you are ready to face life's uncertainties with resilience and confidence. It's about safeguarding yourself and those around you, turning potential crises into manageable situations. Preparedness empowers you to navigate through adversity with clarity and efficiency, minimizing risks and maximizing safety. Ultimately, it's the proactive choice to secure your present and safeguard your future."</p>
         </div>
     </div>
-    <div><h1 style="color: darkgreen;text-align: center;margin-bottom: 20px;">First Aid Kit Items</h1></div>
+    <div><h1 style="color: #fff;text-align: center;margin-bottom: 20px;">First Aid Kit Items</h1></div>
     <div><p></p></div>
     <div class="container_firstaid">
         <div class="firstaid-gallery">
             <div class="firstaid">
-                <img src="images/first-aid-box.png" alt="Basic Supplies">
+            <a href="https://www.ready.gov/kit" target="_blank">
+                <img src="images/first-aid-box.png" alt="Basic Supplies" >
+            </a>
                 <p>Basic Supplies</p>
                 <ul>
                     <li>Adhesive bandages</li>
@@ -87,7 +98,9 @@
                 </ul>
             </div>
             <div class="firstaid">
+            <a href="https://www.uhs.wisc.edu/medical/wound-care/#:~:text=Remove%20any%20visible%20dirt%20or,white%20petroleum%20to%20the%20wound." target="_blank">
                 <img src="images/band-aid.png" alt="Wound Care">
+            </a>
                 <p>Wound Care</p>
                 <ul>
                     <li>Triangular bandages</li>
@@ -98,7 +111,9 @@
                 </ul>
             </div>
             <div class="firstaid">
-                <img src="images/syringe.png" alt="Medications">
+                <a href="https://www.mayoclinic.org/first-aid/first-aid-kits/basics/art-20056673" target="_blank">
+                    <img src="images/syringe.png" alt="Medications">
+                </a>
                 <p>Medications</p>
                 <ul>
                     <li>Pain relievers (e.g., ibuprofen, acetaminophen)</li>
@@ -109,7 +124,9 @@
                 </ul>
             </div>
             <div class="firstaid">
-                <img src="images/cpr.png" alt="Resuscitation and CPR">
+                <a href="https://my.clevelandclinic.org/health/treatments/17680-cardiopulmonary-resuscitation-cpr" target="_blank">
+                    <img src="images/cpr.png" alt="Resuscitation and CPR">
+                </a>
                 <p>Resuscitation and CPR</p>
                 <ul>
                     <li>Portable suction device (if available)</li>
@@ -118,7 +135,9 @@
                 </ul>
             </div>
             <div class="firstaid">
-                <img src="images/aid-kit.png" alt="Miscellaneous">
+                <a href="https://firstaidmart.com/first-aid/bandages-first-aid/misc-first-aid-supplies.html" target="_blank">
+                    <img src="images/aid-kit.png" alt="Miscellaneous">
+                </a>
                 <p>Miscellaneous</p>
                 <ul>
                     <li>Oral rehydration salts</li>
@@ -129,7 +148,10 @@
                 </ul>
             </div>
             <div class="firstaid">
-                <img src="images/lunch.png" alt="Food And Water">
+                <a href="https://www.cdc.gov/disasters/foodwater/prepare.html" target="_blank">
+                    <img src="images/lunch.png" alt="Food And Water">
+                </a>
+                
                 <p>Food And Water</p>
                 <ul>
                     <li>Non-perishable canned goods such as beans</li>
@@ -141,6 +163,8 @@
                 </ul>
             </div>
         </div>
+    </div>
+    </div>    
     </div>
     <hr class="line">
     <section class="footerbottom">

@@ -1145,8 +1145,13 @@ h3{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     color: white;
 }
+.backgroundimg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/wallpaper3.jpg);
+    background-size: cover;
+}
 .safetypage .safetytitle h1{
-    margin-top: 30px;
+    margin-top: 5px;
+    padding-top: 30px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
@@ -1161,29 +1166,29 @@ body {
 }
 
 .container_firstaid{
-    width: 82%;
-    margin: 0 auto;
+    width: 85%;
+    margin-left: 150px;
 }
 .firstaid-gallery .firstaid p{
-    color: #000;
+    color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
 }
 .firstaid-gallery .firstaid ul{
-    text-align: center;
-    color: #111;
-    list-style: none;
+    text-align: left;
+    color: #fff;
 }
 .firstaid-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
 .firstaid {
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
+    margin-right: 20px;
 }
 
 .firstaid img {
