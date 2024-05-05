@@ -23,10 +23,11 @@
         box-shadow: none !important;
     }
     #google_translate_element{
-        right: 0px;
-        bottom: 0px;
+        left: 20px;
+        bottom: 25px;
         position: fixed;
-        z-index: 10;
+        z-index: 1000;
+        display:none !important;
     }
     .goog-te-banner-frame{
      display:none !important;
@@ -34,6 +35,10 @@
     </style>
     </head>
     <body>
+    <div>
+        <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+        <script src="https://mediafiles.botpress.cloud/ebfe7b2c-2592-44d0-a247-96816859af40/webchat/v2/config.js"></script>
+    </div>
         <div id="google_translate_element"></div>
     <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
     <script>
